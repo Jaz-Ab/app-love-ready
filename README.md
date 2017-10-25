@@ -36,4 +36,4 @@ para recrear una página de AppLove más las herramientas y facilidades ya dadas
 
 `Nota:`
 
-*Este trabajo se ha subido a gh-pages [aquí](https://yaniraab.github.io/app-love/).
+*Este trabajo se ha subido a gh-pages [aquí](https://yaniraab.github.io/app-love-ready/).
