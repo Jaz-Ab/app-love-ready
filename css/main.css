@@ -1,0 +1,315 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.71429;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+/*header*/
+
+.container-menu {
+  position: fixed;
+  font-weight: bolder;
+  height: 95px;
+  margin: 0;
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 100;
+}
+
+.background-one {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: cover;
+  width: 1900px;
+  height: 820px;
+  position: relative;
+  top: 80px;
+  z-index: 90;
+}
+
+.menu-services {
+  position: absolute;
+  left: 14%;
+  margin: 35px;
+}
+
+.menu-work {
+  position: absolute;
+  left: 21.3%;
+  margin: 35px;
+}
+
+.menu-team {
+  position: absolute;
+  left: 27.2%;
+  margin: 35px;
+}
+
+.logo-header {
+  width: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  margin-top: -3px;
+}
+
+/*section-one*/
+
+.container-one {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.button-view {
+  padding: 10px 20px;
+  background-color: #2ECC71;
+  color: #ffffff;
+}
+
+/*seccion 2*/
+
+section div h2 {
+  color: #ffffff;
+  font-weight: normal;
+  position: relative;
+  top: -30px;
+}
+
+section div h1 {
+  color: #ffffff;
+  font-size: 75px;
+}
+
+section div p {
+  color: #ffffff;
+  position: relative;
+  top: -45px;
+  padding-bottom: 38px;
+}
+
+.background-two {
+  background-color: #F17C72;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: 1900px;
+  height: 720px;
+  top: 80px;
+  z-index: 50;
+}
+
+div h2 {
+  font-size: 35px;
+  position: absolute;
+  padding-top: 80px;
+}
+
+div h4 {
+  font-weight: lighter;
+  position: relative;
+  padding-bottom: 20px;
+  top: -25px;
+
+}
+
+h6 {
+  font-weight: lighter;
+}
+
+.service-user {
+  position: absolute;
+  left: 29%;
+  top: 530px;
+}
+
+.service-concept {
+  position: absolute;
+  left: 47%;
+  top: 530px;
+}
+
+.service-desing {
+  position: absolute;
+  right: 29%;
+  top: 530px;
+}
+
+.image-circle {
+  width: 200px;
+  position: absolute;
+  top: -220px;
+  left: -38px;
+  margin: 10px;
+}
+
+.text-spacing {
+  line-height: 0px;
+}
+
+/*seccion 3*/
+
+.center {
+  text-align: center;
+  position: relative;
+}
+
+.image-pc {
+  width: 1000px;
+  position: absolute;
+  top: 450px;
+  left: 155px;
+}
+
+.work-section {
+  position: absolute;
+  left: 580px;
+  top: 55px;
+  color: black;
+}
+
+.text-work {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.work-1 {
+  width: 300px;
+  position: absolute;
+  top: 1500px;
+  left: 100px;
+}
+
+.work-2 {
+  width: 300px;
+  position: absolute;
+  top: 1500px;
+  left: 490px;
+}
+
+.work-3 {
+  width: 300px;
+  position: absolute;
+  top: 1500px;
+  left: 880px;
+}
+
+.work-4 {
+  width: 300px;
+  position: absolute;
+  top: 1800px;
+  left: 100px;
+}
+
+.work-5 {
+  width: 300px;
+  position: absolute;
+  top: 1800px;
+  left: 490px;
+}
+
+.work-6 {
+  width: 300px;
+  position: absolute;
+  top: 1800px;
+  left: 880px;
+}
+
+.work-7 {
+  width: 300px;
+  position: absolute;
+  top: 2100px;
+  left: 100px;
+}
+
+.work-8 {
+  width: 300px;
+  position: absolute;
+  top: 2100px;
+  left: 490px;
+}
+
+.work-9 {
+  width: 300px;
+  position: absolute;
+  top: 2100px;
+  left: 880px;
+}
+
+footer {
+  background-color: #373B47;
+  color: #ffffff;
+  text-align: center;
+  padding: 4px;
+  height: 80px;
+  position: relative;
+  top: 2500px;
+  z-index: 200;
+}
